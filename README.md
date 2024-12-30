@@ -1,9 +1,9 @@
-Motivation
+Motivation:-
 •	With the rise of e-commerce and frequent home deliveries, managing mail and package security has become more critical.
 •	Many challenges persist, from missing deliveries to the rising concern of package theft.
 •	The motivation behind this project is to create a seamless experience for managing mail and package deliveries while addressing growing concerns around convenience and security.
 
-Implementation
+Implementation:-
 The proposed smart mailbox works as follows:
 • A digital locking mechanism with an LCD screen, keypad, and servo motor ensures secure access. Only authorized users can unlock the mailbox.
 •	When the IR motion sensor detects the mailbox lid being opened, it signals the Arduino, which activates a servo-controlled barrier
