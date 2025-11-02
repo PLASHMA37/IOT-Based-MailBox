@@ -4,12 +4,12 @@ Motivation:-
 •	The motivation behind this project is to create a seamless experience for managing mail and package deliveries while addressing growing concerns around convenience and security.
 
 Implementation:-
-The proposed smart mailbox works as follows:
-• A digital locking mechanism with an LCD screen, keypad, and servo motor ensures secure access. Only authorized users can unlock the mailbox.
-•	When the IR motion sensor detects the mailbox lid being opened, it signals the Arduino, which activates a servo-controlled barrier
-  to prevent unauthorized access and sends a notification to the user's mobile device via the ESP32.
-• A load cell paired with a weight amplifier measures the weight of delivered packages or letters. When a new delivery is detected, 
-  the Arduino processes the data and sends notifications via the ESP32 to inform the user promptly.
+The proposed Smart Mailbox is an IoT-enabled secure and automated delivery system designed to ensure safe mail handling and real-time monitoring.
+-> A digital locking mechanism with an LCD screen, keypad, and servo motor provides controlled access to authorized users.
+-> The system features Wi-Fi-enabled notifications via the ESP32 to alert the user about every event, including new deliveries and tampering attempts.
+-> An IR motion sensor detects the opening of the mailbox lid. When it closes, the servo-controlled barrier temporarily opens to allow the letter or package to fall safely into a protected compartment, then            automatically closes to secure the contents. If tampering is detected, an instant alert notification is sent.
+-> A load cell with a weight amplifier measures the delivered item’s weight, enabling the system to differentiate between letters and packages and send type-specific notifications to the user.
+-> The design ensures secure, automated, and intelligent mail management with real-time Wi-Fi alerts and physical protection against unauthorized access.
   
 
 
