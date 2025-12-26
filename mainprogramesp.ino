@@ -8,8 +8,8 @@
 #include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Galaxy A14 5G EC0A";
-char pass[] = "plashma37";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 bool notified = false;
 void setup() {
   Serial.begin(9600);
